@@ -67,12 +67,71 @@ header p {
     line-height: 1.2;
 }
 
+.message-provisoire-2 {
+    text-align: center;
+}
+
+.reseaux-header {
+    margin: 14px auto 18px;
+    text-align: center;
+}
+
+.reseaux-header p {
+    margin: 0 0 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.reseaux-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.reseaux-header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.reseaux-header a:hover {
+    transform: scale(1.1);
+}
+
+.reseaux-header img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
 .visuel-missions {
     width: 100%;
     max-width: 900px;
-    margin: 28px auto;
+    margin: 10px auto;
     padding: 0;
     box-sizing: border-box;
+}
+
+.titre-inauguration {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-bottom: 0;
+    
 }
 
 .visuel-missions a {
@@ -103,7 +162,7 @@ section {
     border-bottom: 1px solid var(--couleur-neutre);
 }
 
-main > section:last-child {
+main > section:first-child {
     padding-top: 12px;
 }
 
@@ -118,6 +177,15 @@ h2 {
     margin-bottom: 16px;
     font-size: clamp(1.5rem, 4vw, 2rem);
     line-height: 1.2;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    color: var(--couleur-principale);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    text-align: left;
 }
 
 a {
@@ -170,6 +238,41 @@ a {
     background-color: var(--couleur-neutre);
     border: 1px solid var(--couleur-accent);
     border-radius: 12px;
+}
+
+.partenaires {
+    padding: 32px 20px;
+    text-align: center;
+    background-color: var(--couleur-fond-secondaire);
+}
+
+.partenaires h2 {
+    margin-bottom: 24px;
+}
+
+.liste-partenaires {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.liste-partenaires li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.liste-partenaires img {
+    display: block;
+    width: auto;
+    max-width: 160px;
+    height: 70px;
+    object-fit: contain;
 }
 
 .coordonnees {
