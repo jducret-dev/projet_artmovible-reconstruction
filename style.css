@@ -1,5 +1,37 @@
+@font-face {
+    font-family: "Amiri";
+    src: url("assets/fonts/Amiri-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Amiri";
+    src: url("assets/fonts/Amiri-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Amiri";
+    src: url("assets/fonts/Amiri-Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Amiri";
+    src: url("assets/fonts/Amiri-BoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+}
+
 :root {
-    --couleur-principale: #965e41;
+    --couleur-principale: #87503a;
     --couleur-fond: #fdfaf7;
     --couleur-fond-secondaire: #f5e7d6;
     --couleur-neutre: #dcd9cb;
@@ -300,4 +332,25 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.titre-page {
+    margin: 0;
+    color: var(--couleur-principale);
+    font-family: Arial, sans-serif;
+    font-size: clamp(2rem, 6vw, 3rem);
+    line-height: 1.2;
+}
+
+.retour-accueil {
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.page-legale p {
+    text-align: left;
+}
+
+.page-legale address {
+    font-style: normal;
 }
