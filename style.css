@@ -354,3 +354,46 @@ footer p {
 .page-legale address {
     font-style: normal;
 }
+
+.navigation-principale {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(245, 231, 214, 0.96);
+    border-top: 1px solid rgba(135, 80, 58, 0.25);
+    border-bottom: 1px solid rgba(135, 80, 58, 0.25);
+}
+
+.navigation-principale ul {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.7rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.navigation-principale a {
+    display: block;
+    padding: 0.4rem 0.8rem;
+    color: #87503a;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 999px;
+}
+
+.navigation-principale a:hover,
+.navigation-principale a:focus-visible {
+    color: #f5e7d6;
+    background-color: #87503a;
+}
+
+section {
+    scroll-margin-top: 75px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
