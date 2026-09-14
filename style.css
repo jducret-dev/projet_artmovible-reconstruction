@@ -397,3 +397,7 @@ section {
 html {
     scroll-behavior: smooth;
 }
+
+#actualites {
+    display: none;
+}
