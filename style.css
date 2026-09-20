@@ -29,10 +29,41 @@
     font-weight: 700;
     font-display: swap;
 }
+@font-face {
+    font-family: "Iwona";
+    src: url("assets/fonts/Iwona-Regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Iwona";
+    src: url("assets/fonts/Iwona-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Iwona";
+    src: url("assets/fonts/Iwona-Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Iwona";
+    src: url("assets/fonts/Iwona-BoldItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+}
 
 :root {
-    --brun: #87503a;
-    --brun-fonce: #643625;
+    --brun: #965e41;
+    --brun-fonce: #87503a;
     --texte: #3f332e;
     --fond: #fdfaf7;
     --sable: #f5e7d6;
@@ -63,7 +94,7 @@ body {
     margin: 0;
     background: var(--fond);
     color: var(--texte);
-    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Amiri", Georgia, serif;
     font-size: 1rem;
     line-height: 1.65;
 }
@@ -104,14 +135,15 @@ h3 {
 }
 
 h1,
-h2 {
-    font-family: "Amiri", Georgia, serif;
+h2,
+h3 {
+    font-family: "Iwona", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 h1 {
     max-width: 850px;
     margin: 0 auto 0.9rem;
-    font-size: clamp(2.75rem, 6vw, 5.25rem);
+    font-size: clamp(2.2rem, 4.4vw, 3.9rem);
     font-weight: 400;
     line-height: 0.98;
     letter-spacing: -0.02em;
@@ -165,6 +197,12 @@ p {
     font-weight: 800;
     letter-spacing: 0.13em;
     text-transform: uppercase;
+}
+.sur-titre,
+.action-type,
+.participation-label,
+.contact-label {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* En-tête */
