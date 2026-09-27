@@ -398,6 +398,9 @@ p {
 }
 
 /* Navigation */
+.navigation-principale .icon {
+    display: none;
+}
 
 .navigation-principale {
     position: sticky;
@@ -1090,6 +1093,31 @@ body > footer:not(.site-footer) p {
     .contact-ligne a[href^="mailto:"] {
         font-size: 0.86rem;
         white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-principale {
+        min-height: 38px;
+    }
+
+    .navigation-principale .conteneur {
+        display: none;
+    }
+
+    .navigation-principale > a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background : transparent;
+        color: var(--brun-fonce);
+    }
+
+}
+@media screen and (min-width: 601px) {
+    .navigation-principale #myLinks {
+        display: flex !important;
     }
 }
 
