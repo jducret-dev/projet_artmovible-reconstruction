@@ -634,6 +634,11 @@ section[id] {
     border: 1px solid rgba(135, 80, 58, 0.14);
     border-radius: var(--rayon-petit);
     background: var(--fond);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.action-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .action-card-principale {
@@ -667,6 +672,10 @@ section[id] {
     align-items: center;
     margin-top: auto;
     font-weight: 800;
+    transition: opacity 0.3s;
+}
+.lien-action:hover {
+    opacity: 0.7;
 }
 
 .lien-action-clair {
