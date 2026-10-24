@@ -10,6 +10,8 @@
     <title>Art Movible | Créer, se rencontrer, faire autrement</title>
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://www.artmovible.fr/">
+    <script src="script.js" defer></script>
+    <script src="news.js" defer></script>
 </head>
 
 <body id="top">
@@ -151,6 +153,27 @@
                         <span class="carte-fleche" aria-hidden="true">↓</span>
                     </a>
                 </div>
+            </div>
+        </section>
+        <!-- Actualités -->
+        <section
+                id="actualites"
+                class="section-standard section-actualites"
+                aria-labelledby="actualites-titre"
+                hidden
+        >
+            <div class="conteneur">
+
+                <div class="section-entete section-entete-centree">
+                    <p class="sur-titre">À la une</p>
+                    <h2 id="actualites-titre">Actualités</h2>
+                </div>
+
+                <div
+                        id="actualites-carrousel"
+                        class="actualites-carrousel"
+                ></div>
+
             </div>
         </section>
 
@@ -400,6 +423,5 @@
         </div>
         <p class="copyright">&copy; 2026 Art Movible. Tous droits réservés.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
