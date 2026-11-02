@@ -31,7 +31,7 @@ const actualites = [
     {
         titre: "Brunch créatif",
         description: "Un brunch gourmand et convivial accompagné d’un atelier créatif autour des tableaux sculptés, pour partager un moment de détente et de créativité chez I.C.I. !",
-        image: "assets/image/news/brunch-blanc.png",
+        image: "assets/image/news/Brunch-blanc.png",
         alt: "Brunch créatif",
         date: "Dimanche 29 novembre de 11h à 14h",
         lieu: "",
