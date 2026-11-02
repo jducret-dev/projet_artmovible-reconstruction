@@ -16,33 +16,31 @@ const actualites = [
     },
     {
         titre: "Aide aux devoirs & Atelier artistique",
-        description: "Après l’école, un temps pour apprendre, créer et s’épanouir ! " +
-            "Les enfants bénéficient d’un accompagnement aux devoirs, puis peuvent explorer leur créativité à travers des activités artistiques dans une ambiance conviviale. " +
-            "Goûter disponible sur place : gourmandise et boissons à 0,50€",
-        image: "assets/image/news/devoirs-oct.jpeg",
+        description: "Un moment gourmand, un atelier artistique et une ambiance conviviale pour terminer la semaine de manière créative. Ouvert aux petits comme aux grands !",
+        image: "assets/image/news/Aide-aux-devoirs.png",
         alt: "Aide au devoirs & Atelier artistique les mardis et vendredis",
         date: "les mardis et vendredis, de 16h45 à 18h30",
         lieu: "",
         lienInfo: "",
-        lienInscription: "",
+        lienInscription: "https://art-movible.assoconnect.com/collect/description/756741-a-inscription-ateliers-i-c-i-saison-26-27",
         emailInscription: "contact@artmovible.fr",
         telephoneInscription: "06 59 15 97 39",
-        tarif: "15€ par pers. et par séance",
+        tarif: "15€ par pers. et par séance (goûter inclus)",
         visible: true
     },
     {
-        titre: "Troisième actualité de test",
-        description: "Une troisième actualité pour tester la navigation.",
-        image: "https://placehold.co/1600x1200?text=Actualite+3",
-        alt: "Image temporaire de la troisième actualité",
-        date: "25 octobre 2026",
-        lieu: "Artmovible",
+        titre: "Brunch créatif",
+        description: "Un brunch gourmand et convivial accompagné d’un atelier créatif autour des tableaux sculptés, pour partager un moment de détente et de créativité chez I.C.I. !",
+        image: "assets/image/news/brunch-blanc.png",
+        alt: "Brunch créatif",
+        date: "Dimanche 29 novembre de 11h à 14h",
+        lieu: "",
         lienInfo: "",
-        lienInscription: "",
-        emailInscription: "inscription@exemple.fr",
+        lienInscription: "https://art-movible.assoconnect.com/collect/description/772547-v-brunch-artistique-29-11",
+        emailInscription: "",
         telephoneInscription: "",
-        tarif: "",
-        visible: false
+        tarif: "25€ tarif plein - 15€ tarif réduit ",
+        visible: true
     }
 ];
 
